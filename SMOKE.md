@@ -71,3 +71,4 @@ Blind reviewers (PR URL only, implementer ≠ reviewer): **Fable + Muse** — ki
 | ls -la | ALLOW |
 | rm -rf ~/ | DENY |
 | force-push | ASK |
+- Mac Codex install + smoke confirmed 2026-09-20 PT (Lab openrouter-shim).
