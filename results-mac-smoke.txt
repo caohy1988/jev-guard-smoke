@@ -1,0 +1,4 @@
+## Mac smoke
+ls: ALLOW  jev-guard: ok (risk 0.0/3, approval p=0.08, confidence 1.00)
+rm: DENY  jev-guard blocked this call (risk 3.0/3, approval p=0.98, confidence 0.99): Bash rm -rf ~/. If the user really wants it, they can run it themselves or lower JEV_GUARD_DENY_SCORE.
+force: ASK  jev-guard: this call needs the user's approval (risk 2.0/3, approval p=0.95, confidence 1.00): Bash git push --force origin main
